@@ -7,11 +7,11 @@ public class Todo {
     private String status;
     private String priority;
 
-    public Todo(int id, String todo, String status, String priority) {
+    public Todo(int id, String todo, String priority, String status) {
         this.id = id;
         this.todo = todo;
-        this.status = status;
         this.priority = priority;
+        this.status = status;
     }
 
     public int getId() {
