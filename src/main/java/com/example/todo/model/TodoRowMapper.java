@@ -11,8 +11,8 @@ public class TodoRowMapper implements RowMapper<Todo>{
         return new Todo(
             rs.getInt("id"),
             rs.getString("todo"),
-            rs.getString("status"),
-            rs.getString("priority")
+            rs.getString("priority"),
+            rs.getString("status")
         );
     }
 }
